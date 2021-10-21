@@ -2259,21 +2259,21 @@ class compression:
 
                                         else:
 
-                                            if sda10=="1" and ei==Circle_times2:
+                                            if sda10=="1" and ei!=Circle_times2:
                                                     sda4=sda4+"1"
                                                     count_times4=count_times4+1
                                                     
 
-                                            elif sda10=="0" and ei==Circle_times2: 
+                                            elif sda10=="0" and ei!=Circle_times2: 
                                                     sda4=sda4+"0"
                                                     
 
-                                            elif sda10=="1" and ei!=Circle_times2:
+                                            elif sda10=="1" and ei==Circle_times2:
                                                 sda4=sda4+"0"
                                                     
                                                     
 
-                                            elif sda10=="0" and ei!=Circle_times2: 
+                                            elif sda10=="0" and ei==Circle_times2: 
                                                     sda4=sda4+"1"
                                                     count_times4=count_times4+1
                                             
@@ -2430,21 +2430,21 @@ class compression:
 
                                         else:
 
-                                            if sda10=="1" and ei==Circle_times2:
+                                            if sda10=="1" and ei!=Circle_times2:
                                                     sda4=sda4+"1"
                                                     count_times4=count_times4+1
                                                     
 
-                                            elif sda10=="0" and ei==Circle_times2: 
-                                                    sda4=sda4+"0"
-                                                    
-
-                                            elif sda10=="1" and ei!=Circle_times2:
-                                                    sda4=sda4+"0"
-                                                    
-                                                    
-
                                             elif sda10=="0" and ei!=Circle_times2: 
+                                                    sda4=sda4+"0"
+                                                    
+
+                                            elif sda10=="1" and ei==Circle_times2:
+                                                    sda4=sda4+"0"
+                                                    
+                                                    
+
+                                            elif sda10=="0" and ei==Circle_times2: 
                                                     sda4=sda4+"1"
                                                     count_times4=count_times4+1
 
